@@ -1,0 +1,6 @@
+{
+  "name": "P2P Web",
+  "description": "Navegador e servidor descentralizado P2P. Publique sites pelo localhost e acesse domínios .p2p diretamente na rede ponto a ponto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

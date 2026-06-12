@@ -1,38 +1,20 @@
-# p2pweb
-A proxima evolução da internet começa aqui! - P2P WEB
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Crie sites dinamicos p2p direto do seu pc
+# Run and deploy your AI Studio app
 
-## requisitos
+This contains everything you need to run your app locally.
 
-servidor local usando alguma linguagem de programação com suporte a options e permissão de cors para qualquer host
+View your app in AI Studio: https://ai.studio/apps/c9a83aaa-1b19-4d32-9fba-a223c70a3002
 
-## primeiro acesso
+## Run Locally
 
-no primeiro acesso ao site p2p, vai pedir no usuario host que o usuario host autorize acesso a recursos locais no navegador depois qualquer um entra sem nenhuma burocracia
-
-## observações:
-
-funciona com redes moveis tambem pra quem acessa como visitante
-
-funciona com paginas dinamicas
-
-## como publicar site
-
-clique no botão virar host logo em seguida digite o dominio e clique em ativar dominio e em baixo o endereço do servidor local, exemplo: http://localhost:8080 e clique em publicar
-
-## como acessar
-
-muito simples qualquer pessoa na internet entrando nesse sistema coloca seu dominio p2p e acessa o site do host
-
-## limitações
-
- - cada aba do navegador só pode publicar um site por vez
- - não permite streaming de arquivos estaticos de videos e audios pois o peerjs não suporta arquivos grande pela rede em tempo real
-
-## onde hospedar o index.html do sistema
-
-qualquer hospedagem de arquivos estaticos, depois qualquer um pode publicar seu site no sistema p2p
+**Prerequisites:**  Node.js
 
 
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
