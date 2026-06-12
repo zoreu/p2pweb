@@ -28,7 +28,7 @@ muito simples qualquer pessoa na internet entrando nesse sistema coloca seu domi
 ## limitações
 
  - cada aba do navegador só pode publicar um site por vez
- - não permite streaming de videos e audios pois o peerjs não suporta arquivos grande pela rede em tempo real
+ - não permite streaming de arquivos estaticos de videos e audios pois o peerjs não suporta arquivos grande pela rede em tempo real
 
 
 
