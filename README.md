@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+## p2p web
 
-# Run and deploy your AI Studio app
+**requesitos:**  Node.js
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/c9a83aaa-1b19-4d32-9fba-a223c70a3002
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Instale dependencias:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. gerar arquivos estaticos:
+   `npm run build`
+3. jogue os arquivos estaticos numa hospedagem estatica
+
+## publicar site p2p
+
+1. clique em: Ativar Host P2P
+2. registre um domino
+3. vincule seu dominio ao endereço local de sua aplicação
+
+## requesitos da aplicação local para servir os arquivos do dominio p2p
+
+1. der permissões de cors e adicione suporte ao metodo options
