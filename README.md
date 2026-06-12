@@ -19,7 +19,7 @@ funciona com paginas dinamicas
 
 ## como publicar site
 
-clique no botão virar host logo em seguida digite o endereço do servidor local, exemplo: http://localhost:8080
+clique no botão virar host logo em seguida digite o dominio e cloque em ativar dominio e em baixo o endereço do servidor local, exemplo: http://localhost:8080 e clique em publicar
 
 ## como acessar
 
